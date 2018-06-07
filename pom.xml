@@ -737,7 +737,25 @@ THE SOFTWARE.
         </plugins>
       </build>
     </profile>
-    <profile>
+	  
+<distributionManagemant>
+
+<repository>
+
+        <id>releases</id>
+        <name>Releases</name>
+        <url>http://10.97.60.34:8081/nexus/content/repositories/releases/</url>
+</repository>
+
+<snapshotRepository>
+        <id>snapshots</id>
+        <name>Snapshots</name>
+        <url>http://10.97.60.34:8081/nexus/content/repositories/snapshots/</url>
+</snapshotRepository>
+
+</distributionManagemant>
+   
+	  <profile>
       <id>specific-test</id>
       <activation>
         <property>
