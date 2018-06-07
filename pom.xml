@@ -97,8 +97,6 @@
         <url>http://10.97.60.34:8081/nexus/content/repositories/releases/</url>
       </repository>
 
-
-
       <snapshotRepository>
         <id>snapshots</id>
         <name>Snapshots</name>
